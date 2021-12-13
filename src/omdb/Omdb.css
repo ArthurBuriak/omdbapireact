@@ -1,0 +1,44 @@
+.omdb-form{
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+}
+
+.omdb-search-btn{
+    margin-left: 20px;
+}
+
+.omdb-show_body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.omdb-show_card{
+    margin-top: 30px;
+}
+
+.omdb-form_error{
+    padding: 30px 10px;
+    width: 100%;
+    color: white;
+    background: red;
+}
+
+.movie-list{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid white;
+    z-index: 999;
+    background: black;
+    color: white;
+}
+
+
+.movie-hint{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
